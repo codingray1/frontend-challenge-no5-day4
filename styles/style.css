@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.global-container {
+    padding-top: 10px;
+    position: absolute;
+    left:   50%;
+    transform: translate(-50%);
+
+    height: 100vh;
+    width: 1200px;
+   
+}
+
+.header {
+    overflow: hidden;
+    padding: 20p 20px;
+    width: 1200px;
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+   
+}
+  
+  .header a {
+    float: left;
+    color: hsl(240, 100%, 5%);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+
+.header a:hover {
+    color:hsl(5, 85%, 63%);
+}
+  
+  .header-right {
+    margin-left: auto;
+    float: right;
+  }
+
+#web3-desktop {
+
+    height: 350px;
+    width: 850px;
+}
+
+.news-texts {
+    
+    padding: 0.5rem;
+    display: flex;
+
+}
+
+.left, .right {
+    margin: 10px;
+    width: 45%;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.news-content2 {
+    height: 600px;
+    width: 800px;
+    padding: 20px;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+
+#read {
+    margin-top: 20px;
+    padding: 15px;
+    width: 200px;
+
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+}
+
+#read:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+.bottom-content {
+    display: flex;
+}
+
+.content{
+    width: 800px;
+    display: flex;
+    padding: 20px;
+}
+
+#size-up {
+    font-size: 60px;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+
+.content1, .content2, .content3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;;
+}
+
+.content2 {
+    border-top: 1px solid hsl(36, 100%, 99%);
+    border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+.content > img {
+    height: 150px;
+    width:  150px;
+}
+
+.content-texts {
+    margin-left: 20px;
+}
+
+.content-texts h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#title {
+    cursor: pointer;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#title:hover {
+    color: hsl(35, 77%, 62%);
+    
+}
+
+h3:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.news-content2 h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    color:hsl(35, 77%, 62%);
+}
+
+.news-content2 p {
+    color: hsl(233, 8%, 79%);
+}
+
+.right p {
+    color: hsl(236, 13%, 42%);
+}
+
+.content p {
+    color: hsl(236, 13%, 42%);
+}
+
+.content h2 { 
+    color: hsl(233, 8%, 79%);
+    font-size: 32px;
+}
